@@ -1,0 +1,111 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: #1EAAB7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card{
+
+    
+    width: 300px;
+    height: 350px;
+    background-color: #ffff;
+    border-radius: 15px ;
+    overflow: hidden;
+}
+
+
+.container .card .card-header img{
+
+    width: 100%;
+}
+
+
+.container .card .user{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+
+.container .card .user img{
+
+    margin-top: -15%;
+    border-radius: 100px;
+    width: 30%;
+
+}
+
+
+
+.container .card .user h1{
+
+
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.container .card .user .name-span{
+
+    color: #808080;
+}
+
+.container .card .user span{
+
+
+    color: #808080;
+   
+}
+
+
+.container .card .statistics{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+    border-top: 1px solid #e9e5e5;
+    margin-top: 40px;
+
+}
+
+
+.container .card .statistics .box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+.container .card .statistics .box h1{
+
+    font-size: 15px;
+    color: #808080;
+}
+
+
+.container .card .statistics .box span{
+
+    font-weight: 700;
+}
